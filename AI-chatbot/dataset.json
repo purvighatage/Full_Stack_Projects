@@ -1,0 +1,32 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "howdy", "what's up", "hiya", "greetings"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "catch you later", "i'm leaving", "talk to you later", "farewell", "have a good one"]
+    },
+    {
+      "tag": "set_preference",
+      "patterns": ["my name is", "i prefer", "i like", "call me", "remember that i", "my favorite color is", "i enjoy", "i love"]
+    },
+    {
+      "tag": "generate_image",
+      "patterns": ["create an image of", "generate a picture of", "draw me a", "make an image of", "can you generate an image", "paint a", "show me a picture of"]
+    },
+    {
+      "tag": "generate_file",
+      "patterns": ["create a file", "generate a document", "make a text file", "write a report", "save to a file", "export a document", "create a note"]
+    },
+    {
+      "tag": "general_query",
+      "patterns": ["what is", "how do i", "can you explain", "tell me about", "who is", "what are", "give me information on", "search for", "do you know"]
+    },
+    {
+      "tag": "contextual_conversation",
+      "patterns": ["what did i just say", "what were we talking about", "can you repeat that", "as i mentioned before", "regarding our previous topic", "what was my last question"]
+    }
+  ]
+}
